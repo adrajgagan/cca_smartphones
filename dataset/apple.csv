@@ -1,0 +1,47 @@
+model,price,avg_rating,5G_or_not,processor_brand,num_cores,processor_speed,battery_capacity,fast_charging_available,fast_charging,ram_capacity,internal_memory,screen_size,refresh_rate,num_rear_cameras,os,primary_camera_rear,primary_camera_front,extended_memory_available,resolution_height,resolution_width
+Apple iPhone XR2,71999,6,0,bionic,0,0,3060,1,0,4,64,6.1,60,2,ios,12,7,0,1792,828
+Apple iPhone SE 4,49990,6,1,bionic,6,3.22,0,0,0,4,64,6.1,60,1,ios,12,11,0,1580,750
+Apple iPhone SE 3 2022,43900,0,1,bionic,6,3.22,0,0,0,4,64,4.7,60,1,ios,12,7,0,1334,750
+Apple iPhone SE 2020,39900,6.3,0,bionic,6,2.65,1821,1,18,3,64,4.7,60,1,ios,12,7,0,1334,750
+Apple iPhone 9,29990,6.1,0,bionic,6,2.65,2050,1,0,3,64,4.7,60,1,ios,12,7,0,1334,750
+Apple iPhone 7s,52990,0,0,fusion,4,2.37,2230,0,0,3,32,4.7,60,1,ios,13,7,0,1334,750
+Apple iPhone 15 Ultra,149900,7.9,1,bionic,8,0,4700,1,0,8,128,6.73,120,3,ios,48,12,0,2796,1290
+Apple iPhone 15 Pro Max,142990,7.9,1,bionic,0,0,4352,1,25,8,256,6.68,120,3,ios,50,12,0,2778,1284
+Apple iPhone 15 Pro,130990,7.5,1,bionic,0,0,0,0,0,8,128,6.06,120,3,ios,50,12,0,2532,1170
+Apple iPhone 15 Plus,84990,7.5,1,bionic,6,0,4532,1,0,8,128,6.71,120,2,ios,12,12,0,2778,1284
+Apple iPhone 15,82990,7.2,0,bionic,0,0,3285,1,0,6,128,6.06,60,2,ios,50,13,0,2532,1170
+Apple iPhone 14 Pro Max (512GB),169900,7.8,1,bionic,6,0,4323,1,0,6,512,6.7,120,3,ios,48,12,0,2796,1290
+Apple iPhone 14 Pro Max (256GB),139990,7.7,1,bionic,6,0,4323,1,0,6,256,6.7,120,3,ios,48,12,0,2796,1290
+Apple iPhone 14 Pro Max (1TB),182999,7.8,1,bionic,6,0,4323,1,0,6,1024,6.7,120,3,ios,48,12,0,2796,1290
+Apple iPhone 14 Pro Max,129990,7.6,1,bionic,6,0,4323,1,0,6,128,6.7,120,3,ios,48,12,0,2796,1290
+Apple iPhone 14 Pro (256GB),129990,7.6,1,bionic,6,0,3200,1,0,6,256,6.1,120,3,ios,48,12,0,2556,1179
+Apple iPhone 14 Pro (1TB),172999,7.7,1,bionic,6,0,3200,1,0,6,1024,6.1,120,3,ios,48,12,0,2556,1179
+Apple iPhone 14 Pro,119990,7.5,1,bionic,6,0,3200,1,0,6,128,6.1,120,3,ios,48,12,0,2556,1179
+Apple iPhone 14 Plus (512GB),104999,8.3,1,bionic,6,3.22,4325,1,0,6,512,6.7,60,2,ios,12,12,0,2778,1284
+Apple iPhone 14 Plus (256GB),84999,8.3,1,bionic,6,3.22,4325,1,0,6,256,6.7,60,2,ios,12,12,0,2778,1284
+Apple iPhone 14 Plus,74999,8.2,1,bionic,6,3.22,4325,1,0,6,128,6.7,60,2,ios,12,12,0,2778,1284
+Apple iPhone 14 Mini,69990,7,0,bionic,0,0,3500,1,0,6,128,5.42,60,2,ios,12,12,0,2340,1080
+Apple iPhone 14 (512GB),95999,8.2,1,bionic,6,3.22,3279,1,0,6,512,6.1,60,2,ios,12,12,0,2532,1170
+Apple iPhone 14 (256GB),75999,8.2,1,bionic,6,3.22,3279,1,0,6,256,6.1,60,2,ios,12,12,0,2532,1170
+Apple iPhone 14,65999,8.1,1,bionic,6,3.22,3279,1,0,6,128,6.1,60,2,ios,12,12,0,2532,1170
+Apple iPhone 13 Pro Max (256GB),139900,8.4,1,bionic,6,3.22,4352,1,0,6,256,6.7,120,3,ios,12,12,0,2778,1284
+Apple iPhone 13 Pro Max (1TB),179900,8.6,1,bionic,6,3.22,4352,1,0,6,1024,6.7,120,3,ios,12,12,0,2778,1284
+Apple iPhone 13 Pro Max,129900,8.4,1,bionic,6,3.22,4352,1,0,6,128,6.7,120,3,ios,12,12,0,2778,1284
+Apple iPhone 13 Pro (256GB),129900,8.3,1,bionic,6,3.22,3095,1,0,6,256,6.1,120,3,ios,12,12,0,2532,1170
+Apple iPhone 13 Pro (1TB),147900,8.4,1,bionic,6,3.22,3095,1,0,6,1024,6.1,120,3,ios,12,12,0,2532,1170
+Apple iPhone 13 Pro,119900,8.3,1,bionic,6,3.22,3095,1,0,6,128,6.1,120,3,ios,12,12,0,2532,1170
+Apple iPhone 13 Mini,64900,7.9,1,bionic,6,3.22,2438,1,0,4,128,5.4,60,2,ios,12,12,0,2340,1080
+Apple iPhone 13 (512GB),91999,8,1,bionic,6,3.22,3240,1,0,4,512,6.1,60,2,ios,12,12,0,2532,1170
+Apple iPhone 13 (256GB),72999,7.9,1,bionic,6,3.22,3240,1,0,4,256,6.1,60,2,ios,12,12,0,2532,1170
+Apple iPhone 13,62999,7.9,1,bionic,6,3.22,3240,1,0,4,128,6.1,60,2,ios,12,12,0,2532,1170
+Apple iPhone 12 Pro (512GB),139900,8,1,bionic,6,3.1,0,0,0,6,512,6.1,60,3,ios,12,12,0,2532,1170
+Apple iPhone 12 Pro (256GB),119900,8,1,bionic,6,3.1,0,0,0,6,256,6.1,60,3,ios,12,12,0,2532,1170
+Apple iPhone 12 Mini (256GB),55999,7.5,1,bionic,6,3.1,0,0,0,4,256,5.4,60,2,ios,12,12,0,2340,1080
+Apple iPhone 12 Mini (128GB),45999,7.5,1,bionic,6,3.1,0,0,0,4,128,5.4,60,2,ios,12,12,0,2340,1080
+Apple iPhone 12 Mini,40999,7.4,1,bionic,6,3.1,0,0,0,4,64,5.4,60,2,ios,12,12,0,2340,1080
+Apple iPhone 12 (256GB),67999,7.6,1,bionic,6,3.1,0,0,0,4,256,6.1,60,2,ios,12,12,0,2532,1170
+Apple iPhone 12 (128GB),55999,7.5,1,bionic,6,3.1,0,0,0,4,128,6.1,60,2,ios,12,12,0,2532,1170
+Apple iPhone 12,51999,7.4,1,bionic,6,3.1,0,0,0,4,64,6.1,60,2,ios,12,12,0,2532,1170
+Apple iPhone 11 Pro Max,109900,7.7,0,bionic,6,2.65,3500,1,18,4,64,6.5,60,3,ios,12,12,0,2688,1242
+Apple iPhone 11 (128GB),46999,7.5,0,bionic,6,2.65,3110,0,0,4,128,6.1,60,2,ios,12,12,0,1792,828
+Apple iPhone 11,38999,7.3,0,bionic,6,2.65,3110,0,0,4,64,6.1,60,2,ios,12,12,0,1792,828

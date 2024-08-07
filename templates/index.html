@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smartphone Recommendation System</title>
+    <link rel="stylesheet" href="http://unpkg.com/sheryjs/dist/Shery.css" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+</head>
+<body>
+    <div id="main">
+        <div id="back">
+            <img src="{{ url_for('static', filename='images/00.jpg') }}" alt="">
+            <img src="{{ url_for('static', filename='images/11.jpg') }}" alt="">
+            <img src="{{ url_for('static', filename='images/22.jpg') }}" alt="">
+            <img src="{{ url_for('static', filename='images/33.jpg') }}" alt="">
+            <img src="{{ url_for('static', filename='images/44.jpg') }}" alt="">
+            <img src="{{ url_for('static', filename='images/55.jpg') }}" alt="">
+            <img src="{{ url_for('static', filename='images/66.jpg') }}" alt="">
+            <img src="{{ url_for('static', filename='images/77.jpg') }}" alt="">
+            <img src="{{ url_for('static', filename='images/88.jpg') }}" alt="">
+            <img src="{{ url_for('static', filename='images/99.jpg') }}" alt="">
+        </div>
+        <div id="top">
+            <div id="workingarea">
+                <div id="nav">
+                    <a href="/">
+                        <img id="nleft" src="{{ url_for('static', filename='images/logo.png') }}" alt="">
+                    </a>
+                    <div id="nright">
+                        <a href="/index">Sales</a>
+                        <a href="#">Log IN</a>
+                    </div>
+                </div>
+                <div id="hero">
+                    <div id="hleft">
+                        <div class="elem">
+                            <div class="bb">
+                                <h2>Select your Smartphone</h2>
+                                <form id="smartphone-form" action="/price_ranges" method="post" class="styled-form">
+                                    <label for="model">Choose a model:</label>
+                                    <select name="model" id="model">
+                                        <option value="">Select</option>
+                                        {% for brand in models %}
+                                            <option value="{{ brand }}">{{ brand }}</option>
+                                        {% endfor %}
+                                    </select>
+                                    <button type="submit">Submit</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div id="hright">
+                        <div id="img">
+                            <img src="logo.jpg" alt="logo">
+                        </div>
+                    </div> -->
+                </div>
+            </div> 
+        </div>
+    </div>
+    
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+    <script type="text/javascript" src="http://unpkg.com/sheryjs/dist/Shery.js"></script>
+    <script src="{{ url_for('static', filename='js/index.js') }}"></script>
+</body>
+</html>

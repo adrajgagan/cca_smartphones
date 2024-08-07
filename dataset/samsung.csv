@@ -1,0 +1,99 @@
+model,price,avg_rating,5G_or_not,processor_brand,num_cores,processor_speed,battery_capacity,fast_charging_available,fast_charging,ram_capacity,internal_memory,screen_size,refresh_rate,num_rear_cameras,os,primary_camera_rear,primary_camera_front,extended_memory_available,resolution_height,resolution_width
+Samsung Galaxy Z Fold 4 (12GB RAM + 1TB),163980,0,1,snapdragon,8,3.2,4400,1,25,12,1024,7.6,120,3,android,50,10,0,2176,1812
+Samsung Galaxy Z Fold 4,154998,0,1,snapdragon,8,3.2,4400,1,25,12,256,7.6,120,3,android,50,10,0,2176,1812
+Samsung Galaxy Z Fold 3,110999,8.9,1,snapdragon,8,2.84,4400,1,25,12,256,7.6,120,3,android,12,10,0,2208,1768
+Samsung Galaxy Z Flip 4 5G,89999,8.8,1,snapdragon,8,3.2,3700,1,25,8,128,6.7,120,2,,12,10,0,2640,1080
+Samsung Galaxy Z Flip 3,69999,8.4,1,snapdragon,8,2.84,3300,1,15,8,128,6.7,120,2,,12,10,0,2640,1080
+Samsung Galaxy S9 Plus (128GB),34999,7.8,0,exynos,8,2.8,3500,1,0,6,128,6.2,60,2,android,12,8,1,2960,1440
+Samsung Galaxy S24 Ultra,119990,8.5,1,snapdragon,8,0,5100,1,45,12,256,6.83,144,4,android,200,60,0,2860,1200
+Samsung Galaxy S23 Ultra 5G,114990,0,1,snapdragon,8,3.2,5000,1,45,8,256,6.8,120,4,android,200,12,0,3088,1440
+Samsung Galaxy S23 Plus,84990,8.9,1,snapdragon,8,3.2,4700,1,45,8,256,6.6,120,3,android,50,12,0,2340,1080
+Samsung Galaxy S23 FE 5G,54999,7.7,1,,8,0,4500,1,0,8,128,6.5,60,4,android,64,32,0,2400,1080
+Samsung Galaxy S23,70990,8.8,1,snapdragon,8,3.2,3900,1,25,8,128,6.1,120,3,android,50,12,0,2340,1080
+Samsung Galaxy S22 Ultra 5G (8GB RAM + 128GB),99990,0,1,snapdragon,8,3,5000,1,45,8,128,6.8,120,4,android,108,40,0,3080,1440
+Samsung Galaxy S22 Ultra 5G (12GB RAM + 512GB),118999,0,1,snapdragon,8,3,5000,1,45,12,512,6.8,120,4,android,108,40,0,3080,1440
+Samsung Galaxy S22 Ultra 5G,91999,0,1,snapdragon,8,3,5000,1,45,12,256,6.8,120,4,android,108,40,0,3080,1440
+Samsung Galaxy S22 Plus 5G (8GB RAM + 256GB),88999,8.8,1,snapdragon,8,3,4500,1,45,8,256,6.6,120,3,android,50,10,0,2340,1080
+Samsung Galaxy S22 Plus 5G,64449,8.7,1,snapdragon,8,3,4500,1,45,8,128,6.6,120,3,android,50,10,0,2340,1080
+Samsung Galaxy S22 FE 5G,51999,7.9,1,exynos,8,0,4200,1,33,8,128,6.4,120,3,android,12,32,0,2400,1080
+Samsung Galaxy S22 5G (8GB RAM + 256GB),57999,8.7,1,snapdragon,8,3,3700,1,25,8,256,6.1,120,3,android,50,10,0,2340,1080
+Samsung Galaxy S22 5G,49999,8.6,1,snapdragon,8,3,3700,1,25,8,128,6.1,120,3,android,50,10,0,2340,1080
+Samsung Galaxy S21 Ultra 5G (12GB RAM + 128GB),101999,0,1,exynos,8,2.9,5000,1,25,12,128,6.8,120,4,android,108,40,0,3200,1440
+Samsung Galaxy S21 Ultra,105999,0,1,exynos,8,2.9,5000,1,25,12,256,6.8,120,4,android,108,40,0,3200,1440
+Samsung Galaxy S21 Plus,59450,8.8,1,exynos,8,2.9,4800,1,25,8,128,6.7,120,3,android,64,10,0,2400,1080
+Samsung Galaxy S21 FE 5G (8GB RAM + 256GB),43999,8.8,1,exynos,8,2.9,4500,1,25,8,256,6.4,120,3,android,12,32,0,2340,1080
+Samsung Galaxy S21 FE 5G,39999,8.7,1,exynos,8,2.9,4500,1,25,8,128,6.4,120,3,android,12,32,0,2340,1080
+Samsung Galaxy S21,48900,8.8,1,exynos,8,2.9,4000,1,25,8,128,6.2,120,3,android,64,10,0,2400,1080
+Samsung Galaxy S20 Ultra 5G,99999,0,1,exynos,8,2.73,5000,1,45,12,128,6.9,60,4,android,108,40,1,3200,1440
+Samsung Galaxy S20 Plus 5G,85990,0,1,exynos,8,2.73,4500,1,25,8,128,6.7,60,4,android,64,10,1,3200,1440
+Samsung Galaxy S20 Plus,83000,8.8,0,exynos,8,2.73,4500,1,25,8,128,6.7,120,4,android,64,10,1,3200,1440
+Samsung Galaxy S20 FE 5G,31239,8.8,1,snapdragon,8,2.84,4500,1,0,8,128,6.5,120,3,android,12,32,1,2400,1080
+Samsung Galaxy S20 FE,35489,8.6,0,exynos,8,2.73,4500,1,25,8,128,6.5,120,3,android,12,32,1,2400,1080
+Samsung Galaxy S20 5G,74999,8.9,1,exynos,8,2.73,4000,1,25,8,128,6.2,60,3,android,64,10,1,3200,1440
+Samsung Galaxy S20,41999,8.8,0,exynos,8,2.73,4000,1,25,8,128,6.2,120,3,android,64,10,1,3200,1440
+Samsung Galaxy S10 Plus,42999,8.1,0,exynos,8,2.7,4100,1,15,8,128,6.4,60,3,android,16,10,1,3040,1440
+Samsung Galaxy S10 5G,78990,8.6,1,exynos,8,2.7,4500,1,25,8,256,6.7,60,3,android,16,10,1,3040,1440
+Samsung Galaxy Note 30 Ultra 5G,104999,0,1,snapdragon,8,3.2,4500,1,67,12,256,6.71,120,3,android,200,10,1,3214,1440
+Samsung Galaxy Note 20,86000,8.7,0,exynos,8,2.73,4300,1,25,8,256,6.7,60,3,android,64,10,0,2400,1080
+Samsung Galaxy Note 10 Plus 5G,92999,8.9,1,exynos,8,2.7,4300,1,0,12,256,6.8,60,4,android,12,10,1,3040,1440
+Samsung Galaxy Note 10 Plus,58999,8.9,0,exynos,8,2.73,4300,1,45,12,256,6.8,60,4,android,12,10,1,3040,1440
+Samsung Galaxy Note 10 Lite,39999,8.3,0,exynos,8,2.7,4500,1,25,6,128,6.7,60,3,android,12,32,1,2400,1080
+Samsung Galaxy M62,23999,8.3,0,exynos,8,2.73,7000,1,0,6,128,6.71,60,4,android,64,32,1,2400,1080
+Samsung Galaxy M54 5G,34999,8.5,1,snapdragon,8,2.84,6000,1,25,6,128,6.67,90,3,android,64,32,1,2412,1080
+Samsung Galaxy M53 5G (8GB RAM + 128GB),25289,8.7,1,dimensity,8,2.4,5000,1,25,8,128,6.7,120,4,android,108,32,1,2400,1080
+Samsung Galaxy M53 5G,23790,8.5,1,dimensity,8,2.4,5000,1,25,6,128,6.7,120,4,android,108,32,1,2400,1080
+Samsung Galaxy M52s 5G,24990,7.4,1,,8,0,5000,1,0,8,128,6.5,60,3,android,64,32,1,2400,1080
+Samsung Galaxy M51s 5G,24990,7.2,1,,8,0,6000,1,0,6,128,6.7,60,3,android,64,32,1,2400,1080
+Samsung Galaxy M35,22999,7.4,0,,8,0,6000,1,0,8,128,6.5,60,3,android,64,32,1,2400,1080
+Samsung Galaxy M34 5G,16999,8.4,1,exynos,8,2.4,6000,1,25,6,128,6.5,120,4,android,64,32,1,2400,1080
+Samsung Galaxy M33 5G (8GB RAM + 128GB),19499,8.4,1,exynos,8,2.4,6000,1,25,8,128,6.6,120,4,android,50,8,1,2400,1080
+Samsung Galaxy M33 5G,17478,8.1,1,exynos,8,2.4,6000,1,25,6,128,6.6,120,4,android,50,8,1,2400,1080
+Samsung Galaxy M32 Prime Edition (6GB RAM + 128GB),14859,7.9,0,helio,8,2,6000,1,15,6,128,6.4,90,4,android,64,20,1,2400,1080
+Samsung Galaxy M32 Prime Edition,12120,7.5,0,helio,8,2,6000,1,15,4,64,6.4,90,4,android,64,20,1,2400,1080
+Samsung Galaxy M32 (6GB RAM + 128GB),14490,8,0,helio,8,2,6000,1,15,6,128,6.4,90,4,android,64,20,1,2400,1080
+Samsung Galaxy M32,12364,7.6,0,helio,8,2,6000,1,15,4,64,6.4,90,4,android,64,20,1,2400,1080
+Samsung Galaxy M21 2021,11725,7.6,0,exynos,8,2.3,6000,1,15,4,64,6.4,60,3,android,48,20,1,2340,1080
+Samsung Galaxy M14,14999,6,0,exynos,8,0,6000,0,0,4,64,6.5,60,3,android,48,8,1,1600,720
+Samsung Galaxy M13 5G (4GB RAM + 64GB),12944,7.1,1,dimensity,8,2.2,5000,1,15,4,64,6.5,90,2,android,50,5,1,1600,720
+Samsung Galaxy M13 5G,13999,7.5,1,dimensity,8,2.2,5000,1,15,6,128,6.5,90,2,android,50,5,1,1600,720
+Samsung Galaxy M13 (4GB RAM + 64GB),10630,7.1,0,exynos,8,2,6000,1,15,4,64,6.6,60,3,android,50,8,1,2400,1080
+Samsung Galaxy M13,12999,7.5,0,exynos,8,2,6000,1,15,6,128,6.6,60,3,android,50,8,1,2400,1080
+Samsung Galaxy M12,10999,7.2,0,exynos,8,2,6000,1,15,4,64,6.5,90,4,android,48,8,1,1600,720
+Samsung Galaxy M04 (4GB RAM + 128GB),9499,6.8,0,helio,8,2.3,5000,1,15,4,128,6.5,60,2,android,13,5,1,1600,720
+Samsung Galaxy M04,8499,6.6,0,helio,8,2.3,5000,1,15,4,64,6.5,60,2,android,13,5,1,1600,720
+Samsung Galaxy F63,21999,8.4,1,dimensity,8,2,7000,1,33,6,128,6.7,60,4,android,64,32,1,2400,1080
+Samsung Galaxy F42 5G (8GB RAM + 128GB),22999,8.2,1,dimensity,8,2.2,5000,1,15,8,128,6.6,90,3,android,64,8,1,2408,1080
+Samsung Galaxy F42 5G,15490,8,1,dimensity,8,2.2,5000,1,15,6,128,6.6,90,3,android,64,8,1,2408,1080
+Samsung Galaxy F41 (6GB RAM + 128GB),19999,8.2,0,exynos,8,2.3,6000,1,15,6,128,6.4,60,3,android,64,32,1,2340,1080
+Samsung Galaxy F24 5G,14999,7.8,1,snapdragon,8,2.2,5000,1,25,4,128,6.6,120,3,android,50,8,1,2408,1080
+Samsung Galaxy F23 5G (6GB RAM + 128GB),16999,8,1,snapdragon,8,2.2,5000,1,25,6,128,6.6,120,3,android,50,8,1,2408,1080
+Samsung Galaxy F23 5G,15999,7.8,1,snapdragon,8,2.2,5000,1,25,4,128,6.6,120,3,android,50,8,1,2408,1080
+Samsung Galaxy F22 (6GB RAM + 128GB),13499,7.6,0,helio,8,2,6000,0,0,6,128,6.4,90,4,android,48,13,1,1600,720
+Samsung Galaxy F22,11499,7.3,0,helio,8,2,6000,0,0,4,64,6.4,90,4,android,48,13,1,1600,720
+Samsung Galaxy F14,14990,6.7,0,,8,0,5000,1,25,4,64,6.62,60,3,android,50,16,1,1080,2408
+Samsung Galaxy F13 (4GB RAM + 128GB),11999,7.5,0,exynos,8,2,6000,1,15,4,128,6.6,60,3,android,50,8,1,1080,2408
+Samsung Galaxy F13,10999,7.4,0,exynos,8,2,6000,1,15,4,64,6.6,60,3,android,50,8,1,1080,2408
+Samsung Galaxy F12,10499,7.3,0,exynos,8,2,6000,1,15,4,64,6.5,90,4,android,48,8,1,1600,720
+Samsung Galaxy F04,8499,6.8,0,helio,8,2.3,5000,1,15,4,64,6.5,60,2,android,13,5,1,1600,720
+Samsung Galaxy A92 5G,47990,8,1,dimensity,8,3,5000,1,0,8,128,6.7,60,3,android,48,16,0,2400,1080
+Samsung Galaxy A9 Pro (2019),39990,7.8,0,snapdragon,8,2.2,3400,1,0,6,128,6.4,60,3,android,24,24,1,2340,1080
+Samsung Galaxy A83 5G,39990,8.6,1,snapdragon,8,3.2,4500,1,25,6,128,6.71,120,3,android,64,10,1,3200,1440
+Samsung Galaxy A82 5G,39990,8.6,1,snapdragon,8,2.96,4500,1,25,6,128,6.71,120,3,android,64,10,1,3200,1440
+Samsung Galaxy A75 5G,44999,8.3,1,snapdragon,8,0,5000,1,67,8,128,6.7,120,4,android,108,32,1,2412,1080
+Samsung Galaxy A74 5G,42999,0,1,snapdragon,8,2.36,5000,1,33,8,128,6.7,120,4,android,108,32,1,2412,1080
+Samsung Galaxy A73 5G (8GB RAM + 256GB),41990,0,1,snapdragon,8,2.4,5000,1,25,8,256,6.7,120,4,android,108,32,1,2400,1080
+Samsung Galaxy A73 5G,41999,0,1,snapdragon,8,2.4,5000,1,25,8,128,6.7,120,4,android,108,32,1,2400,1080
+Samsung Galaxy A71,22494,8.6,0,snapdragon,8,2.2,4500,1,25,8,128,6.7,60,4,android,64,32,1,2400,1080
+Samsung Galaxy A7 (2018),21490,7,0,exynos,8,2.2,3300,0,0,4,64,6,60,3,android,24,24,1,1080,2220
+Samsung Galaxy A54 5G,34999,7.6,1,exynos,8,0,5000,1,25,6,128,6.4,120,3,android,50,32,1,2400,1080
+Samsung Galaxy A53 5G (8GB RAM + 128GB),33499,8.9,1,exynos,8,2.4,5000,1,25,8,128,6.5,120,4,android,64,32,1,2400,1080
+Samsung Galaxy A53 5G,31999,8.7,1,exynos,8,2.4,5000,1,25,6,128,6.5,120,4,android,64,32,1,2400,1080
+Samsung Galaxy A53 (8GB RAM + 256GB),36499,8.9,1,exynos,8,2.4,5000,1,25,8,256,6.5,120,4,android,64,32,1,2400,1080
+Samsung Galaxy A52 (8GB RAM + 128GB),22494,8.6,0,snapdragon,8,2.3,4500,1,25,8,128,6.5,90,4,android,64,32,1,2400,1080
+Samsung Galaxy A52,24990,8.3,0,snapdragon,8,2.3,4500,1,25,6,128,6.5,90,4,android,64,32,1,2400,1080
+Samsung Galaxy A50s,15990,8,0,exynos,8,2.3,4000,1,15,4,128,6.4,60,3,android,48,32,1,2340,1080
+Samsung Galaxy A40,17990,6.9,0,exynos,8,2.2,3100,1,15,4,64,5.9,60,2,android,16,25,1,2340,1080
+Samsung Galaxy A34 5G,24999,7.5,1,exynos,8,0,5000,1,33,6,128,6.5,90,4,android,48,13,1,2400,1080
+Samsung Galaxy A33 5G (8GB RAM + 128GB),27499,8.5,1,exynos,8,2.4,5000,1,25,8,128,6.4,90,4,android,48,13,1,2400,1080
+Samsung Galaxy A33 5G,25999,8.2,1,exynos,8,2.4,5000,1,25,6,128,6.4,90,4,android,48,13,1,2400,1080
+Samsung Galaxy A32 5G,24499,7.9,1,dimensity,8,2,5000,1,15,6,128,6.5,90,4,android,48,13,1,1600,720

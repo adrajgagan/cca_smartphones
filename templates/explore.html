@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sales</title>
+    <link
+      rel="shortcut icon"
+      href="logo1.png"
+      type="image/x-icon"
+    />
+    <link
+      href="http://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href={{url_for('static',filename="css/explore.css")}} />
+  </head>
+
+  <body>
+    <div id="nav">
+      <a href="/">
+        <img
+        id="logo"
+        src={{url_for('static',filename="images/logo.png")}}"
+        alt=""
+      />
+      </a>
+      <a href="/index">
+        <h4 id="c">Sales</h4>
+      </a>
+      <h4>Cart 🛒</h4>
+      <h4>Log IN</h4>
+    </div>
+    <div id="cursor"></div>
+    <div id="cursor-blur"></div>
+
+    <video
+      autoplay
+      loop
+      muted
+      src={{url_for('static',filename="images/video1.mp4")}}
+    ></video>
+    <div id="main">
+      <div id="page1">
+        <h1>DREAM. BUY. </h1>
+        <h1>SUCCEED.</h1>
+        <h2>Complete smart phone buying guide.</h2>
+        <p>
+          Tips to help you choose the perfect device for your needs!
+        </p>
+        <div id="arrow">
+          <i class="ri-arrow-down-line"></i>
+        </div>
+      </div>
+      <div id="page2">
+        <div id="scroller">
+          <div id="scroller-in">
+            <h4>Apple</h4>
+            <h4>Samsung</h4>
+            <h4>OnePlus</h4>
+            <h4>Vivo</h4>
+            <h4>Xiaomi</h4>
+            <h4>Realme</h4>
+            <h4>Oppo</h4>
+          </div>
+          <div id="scroller-in">
+            <h4>Apple</h4>
+            <h4>Samsung</h4>
+            <h4>OnePlus</h4>
+            <h4>Vivo</h4>
+            <h4>Xiaomi</h4>
+            <h4>Realme</h4>
+            <h4>Oppo</h4>
+          </div>
+        </div>
+        <div id="about-us">
+          <a href="#">
+            <img 
+            src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/xiaomi-mi-logo-icon.png"
+            alt=""
+          />
+          </a>
+          <div id="about-us-in">
+            <h3>ABOUT US</h3>
+            <p>
+              Welcome to DeviceLimelight, your ultimate destination for expert guidance on choosing the best smartphones and gadgets. At DeviceLimelight, we believe that finding the perfect device should be an exciting and informed experience. Our team of tech enthusiasts and industry experts is dedicated to bringing you comprehensive reviews, in-depth comparisons, and the latest news on the hottest devices in the market.
+            </p>
+          </div>
+         <a href="#">
+          <img
+          src="https://www.thestatesman.com/wp-content/uploads/2021/04/OPPO_Logo.jpg"
+          alt=""
+        />
+         </a>
+        </div>
+        <div id="cards-container">
+          <div class="card" id="card1">
+            <div class="overlay">
+              <a href="/WebApp/DSA-Java/index.html">
+                <h4>Samsung</h4>
+              <p>
+                Samsung is a global technology leader renowned for its innovative smartphones, cutting-edge electronics, and diverse range of consumer and industrial products. With a commitment to quality and a strong focus on research and development, Samsung consistently sets new standards in the tech industry.
+              </p>
+              </a>
+            </div>
+          </div>
+          <div class="card" id="card2">
+            <a href="/WebApp/Web Development/index.html">
+              <div class="overlay">
+                <h4>Apple</h4>
+                <p>Apple Inc. is a global technology company renowned for its innovative products, including the iPhone, iPad, Mac computers, and Apple Watch. Known for its sleek design, cutting-edge technology, and ecosystem integration, Apple has set industry standards and transformed the way people interact with technology.
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="card" id="card3">
+            <div class="overlay">
+              <a href="/WebApp/DSA-Python/index.html">
+                <h4>Oneplus</h4>
+              <p>OnePlus is a consumer electronics manufacturer known for producing high-quality smartphones with flagship specifications at competitive prices. Founded in 2013, the company has built a reputation for innovation, performance, and user-centric design, gaining a loyal global following.
+              </p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div id="green-div">
+          <img
+            src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/dots-side.svg"
+            alt=""
+          />
+          <h4>
+            Sign Up for the Latest in Smartphone Recommendations and Special Offers!
+          </h4>
+          <img
+            src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/dots-side.svg"
+            alt=""
+          />
+        </div>
+      </div>
+      <div id="page3">
+        <p>
+          Join our community to receive expert advice on the best smartphones, tailored recommendations, and exclusive deals delivered straight to your inbox. Stay ahead in the world of mobile technology with the latest trends, reviews, and special offers from DeviceLimelight.
+        </p>
+        <img
+          id="colon1"
+          src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/quote-left.svg"
+          alt=""
+        />
+        <img
+          id="colon2"
+          src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/quote-right.svg"
+          alt=""
+        />
+      </div>
+      <div id="footer">
+        <img
+          src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/dots-footer.svg"
+          alt=""
+        />
+        <div id="f1">
+          <img
+            src={{url_for('static',filename="images/logo.png")}}"
+            alt=""
+          />
+        </div>
+        <div id="f2">
+          <a href="/index"><h3>Sales</h3></a>
+          <h3>Cart 🛒</h3>
+        </div>
+        <div id="f3">
+          <h3>My Account</h3>
+        </div>
+        <div id="f4">
+          <h4>
+            #1234 Bangkok <br />
+            CHISLEHURST <br />
+            KENT <br />
+            BR7 6RP <br />
+            TEL: 0208 309 0181 <br />
+            GET DIRECTIONS <br />
+          </h4>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="http://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/gsap.min.js"
+      integrity="sha512-qF6akR/fsZAB4Co1QDDnUXWnaQseLGXoniuSuSlPQK6+aWhlMZcHzkasCSlnWoe+TJuudlka1/IQ01Dnhgq95g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="http://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollTrigger.min.js"
+      integrity="sha512-IHDCHrefnBT3vOCsvdkMvJF/MCPz/nBauQLzJkupa4Gn4tYg5a6VGyzIrjo6QAUy3We5HFOZUlkUpP0dkgE60A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src={{url_for('static',filename="js/explore.js")}}></script>
+  </body>
+</html>

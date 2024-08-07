@@ -1,0 +1,43 @@
+model,price,avg_rating,5G_or_not,processor_brand,num_cores,processor_speed,battery_capacity,fast_charging_available,fast_charging,...,internal_memory,screen_size,refresh_rate,num_rear_cameras,os,primary_camera_rear,primary_camera_front,extended_memory_available,resolution_height,resolution_width
+Google Pixel 8 Pro,70990,8,1,google,8,0,5000,1,67,12,256,6.73,120,3,android,50,12,0,3120,1440
+Google Pixel 8,53990,7.5,1,google,8,0,4830,1,67,8,128,6.6,120,2,android,50,10,0,2400,1080
+Google Pixel 7A,34990,6.9,1,google,8,0,4410,1,0,6,128,6.1,90,2,android,0,8,0,2400,1080
+Google Pixel 7 Pro 5G,81999,0,1,google,8,2.85,5000,1,30,12,128,6.7,120,3,android,50,11,0,3120,1440
+Google Pixel 7 5G,53100,8.6,1,google,8,2.85,4355,1,30,8,128,6.3,90,2,android,50,11,0,2400,1080
+Google Pixel 6A,29999,7.1,1,google,8,0,4410,1,0,6,128,6.14,60,2,android,0,8,0,2400,1080
+Google Pixel 6 Pro (12GB RAM + 256GB),79700,0,1,google,8,2.8,5003,1,30,12,256,6.71,120,3,android,50,11,0,3120,1440
+Google Pixel 6 Pro,54300,8.9,1,google,8,2.8,5003,1,30,12,128,6.71,120,3,android,50,11,0,3120,1440
+Google Pixel 6,40480,8.4,1,google,8,2.8,4614,1,30,8,128,6.4,90,2,android,50,8,0,2400,1080
+Google Pixel 5A,32999,7.8,1,snapdragon,8,2.4,4620,1,18,6,128,6.34,60,2,android,16,8,0,2400,1080
+Google Pixel 5,36000,8.2,1,snapdragon,8,2.4,4080,1,18,8,128,6,90,2,android,16,8,0,2340,1080
+Google Pixel 4,20120,7.8,0,snapdragon,8,2.8,2800,1,0,6,64,5.7,60,2,android,16,8,0,2280,1080
+Google Pixel 3a XL,15999,6.7,0,snapdragon,8,2,3700,1,18,4,64,6,60,1,android,0,8,0,2160,1080
+Google Pixel 2 XL,15990,6.9,0,snapdragon,8,2.35,3520,1,0,4,128,6,60,1,android,0,8,0,2880,1440
+Google Pixel 8 Pro,70990,8,1,google,8,0,5000,1,67,12,256,6.73,120,3,android,50,12,0,3120,1440
+Google Pixel 8,53990,7.5,1,google,8,0,4830,1,67,8,128,6.6,120,2,android,50,10,0,2400,1080
+Google Pixel 7A,34990,6.9,1,google,8,0,4410,1,0,6,128,6.1,90,2,android,0,8,0,2400,1080
+Google Pixel 7 Pro 5G,81999,0,1,google,8,2.85,5000,1,30,12,128,6.7,120,3,android,50,11,0,3120,1440
+Google Pixel 7 5G,53100,8.6,1,google,8,2.85,4355,1,30,8,128,6.3,90,2,android,50,11,0,2400,1080
+Google Pixel 6A,29999,7.1,1,google,8,0,4410,1,0,6,128,6.14,60,2,android,0,8,0,2400,1080
+Google Pixel 6 Pro (12GB RAM + 256GB),79700,0,1,google,8,2.8,5003,1,30,12,256,6.71,120,3,android,50,11,0,3120,1440
+Google Pixel 6 Pro,54300,8.9,1,google,8,2.8,5003,1,30,12,128,6.71,120,3,android,50,11,0,3120,1440
+Google Pixel 6,40480,8.4,1,google,8,2.8,4614,1,30,8,128,6.4,90,2,android,50,8,0,2400,1080
+Google Pixel 5A,32999,7.8,1,snapdragon,8,2.4,4620,1,18,6,128,6.34,60,2,android,16,8,0,2400,1080
+Google Pixel 5,36000,8.2,1,snapdragon,8,2.4,4080,1,18,8,128,6,90,2,android,16,8,0,2340,1080
+Google Pixel 4,20120,7.8,0,snapdragon,8,2.8,2800,1,0,6,64,5.7,60,2,android,16,8,0,2280,1080
+Google Pixel 3a XL,15999,6.7,0,snapdragon,8,2,3700,1,18,4,64,6,60,1,android,0,8,0,2160,1080
+Google Pixel 2 XL,15990,6.9,0,snapdragon,8,2.35,3520,1,0,4,128,6,60,1,android,0,8,0,2880,1440
+Google Pixel 8 Pro,70990,8,1,google,8,0,5000,1,67,12,256,6.73,120,3,android,50,12,0,3120,1440
+Google Pixel 8,53990,7.5,1,google,8,0,4830,1,67,8,128,6.6,120,2,android,50,10,0,2400,1080
+Google Pixel 7A,34990,6.9,1,google,8,0,4410,1,0,6,128,6.1,90,2,android,0,8,0,2400,1080
+Google Pixel 7 Pro 5G,81999,0,1,google,8,2.85,5000,1,30,12,128,6.7,120,3,android,50,11,0,3120,1440
+Google Pixel 7 5G,53100,8.6,1,google,8,2.85,4355,1,30,8,128,6.3,90,2,android,50,11,0,2400,1080
+Google Pixel 6A,29999,7.1,1,google,8,0,4410,1,0,6,128,6.14,60,2,android,0,8,0,2400,1080
+Google Pixel 6 Pro (12GB RAM + 256GB),79700,0,1,google,8,2.8,5003,1,30,12,256,6.71,120,3,android,50,11,0,3120,1440
+Google Pixel 6 Pro,54300,8.9,1,google,8,2.8,5003,1,30,12,128,6.71,120,3,android,50,11,0,3120,1440
+Google Pixel 6,40480,8.4,1,google,8,2.8,4614,1,30,8,128,6.4,90,2,android,50,8,0,2400,1080
+Google Pixel 5A,32999,7.8,1,snapdragon,8,2.4,4620,1,18,6,128,6.34,60,2,android,16,8,0,2400,1080
+Google Pixel 5,36000,8.2,1,snapdragon,8,2.4,4080,1,18,8,128,6,90,2,android,16,8,0,2340,1080
+Google Pixel 4,20120,7.8,0,snapdragon,8,2.8,2800,1,0,6,64,5.7,60,2,android,16,8,0,2280,1080
+Google Pixel 3a XL,15999,6.7,0,snapdragon,8,2,3700,1,18,4,64,6,60,1,android,0,8,0,2160,1080
+Google Pixel 2 XL,15990,6.9,0,snapdragon,8,2.35,3520,1,0,4,128,6,60,1,android,0,8,0,2880,1440

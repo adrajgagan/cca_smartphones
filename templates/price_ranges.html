@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smartphone Filters</title>
+    <link rel="stylesheet" href={{ url_for('static', filename='css/get_price.css') }}>
+</head>
+<body>
+    <div id="background-overlay"></div>
+    <div class="container">
+        <h1>Filter Smartphones</h1>
+        <form action="/recommend" method="post">
+            <input type="hidden" name="model" value="{{ model }}">
+            
+            <div class="form-group">
+                <label for="price_range">Choose a price range:</label>
+                <select name="price_range" id="price_range">
+                    <option value="No preference">No preference</option>
+                    {% for range in price_ranges %}
+                        <option value="{{ range }}">{{ range }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="5G_or_not">5G Available:</label>
+                <select name="5G_or_not" id="5G_or_not">
+                    {% for option in unique_values['5G_or_not'] %}
+                        <option value="{{ option }}">{{ option }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="ram_capacity">RAM Capacity (GB):</label>
+                <select name="ram_capacity" id="ram_capacity">
+                    {% for option in unique_values['ram_capacity'] %}
+                        <option value="{{ option }}">{{ option }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="internal_memory">Internal Memory (GB):</label>
+                <select name="internal_memory" id="internal_memory">
+                    {% for option in unique_values['internal_memory'] %}
+                        <option value="{{ option }}">{{ option }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="extended_memory_available">Extended Memory Available:</label>
+                <select name="extended_memory_available" id="extended_memory_available">
+                    {% for option in unique_values['extended_memory_available'] %}
+                        <option value="{{ option }}">{{ option }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <button type="submit">Get Recommendations</button>
+        </form>
+    </div>
+    <script src="{{ url_for('static', filename='js/get_price.js') }}"></script>
+</body>
+</html>

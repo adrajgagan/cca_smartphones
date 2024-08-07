@@ -1,0 +1,43 @@
+model,price,avg_rating,5G_or_not,processor_brand,num_cores,processor_speed,battery_capacity,fast_charging_available,fast_charging,...,internal_memory,screen_size,refresh_rate,num_rear_cameras,os,primary_camera_rear,primary_camera_front,extended_memory_available,resolution_height,resolution_width
+Xiaomi Redmi Note 9 Pro Max,16490,8,0,snapdragon,8,2.3,5020,1,33,6,64,6.67,60,4,android,64,32,1,2400,1080
+Xiaomi Redmi Note 9 Pro (4GB RAM + 128GB),14439,7.7,0,snapdragon,8,2.3,5020,1,18,4,128,6.67,60,4,android,48,16,1,2400,1080
+Xiaomi Redmi Note 9 Pro,13999,7.5,0,snapdragon,8,2.3,5020,1,18,4,64,6.67,60,4,android,48,16,1,2400,1080
+Xiaomi Redmi Note 9,11989,7.5,0,helio,8,2,5020,1,22,4,64,6.53,60,4,android,48,13,1,2340,1080
+Xiaomi Redmi Note 8 Pro,16999,7.8,0,helio,8,2.05,4500,1,18,6,64,6.53,60,4,android,64,20,1,2340,1080
+Xiaomi Redmi Note 8 2021,9990,7.5,0,helio,8,2,4000,1,18,4,64,6.3,60,4,android,48,13,1,2340,1080
+Xiaomi Redmi Note 4,10300,6.5,0,snapdragon,8,2,4100,0,0,4,64,5.5,60,1,android,13,5,1,1920,1080
+Xiaomi Redmi Note 13 Pro Max 5G,20499,8.3,1,snapdragon,8,2.36,5200,1,67,6,128,6.67,120,4,android,108,32,1,2460,1080
+Xiaomi Redmi Note 13 Pro 5G,17990,7.8,1,dimensity,8,2,5000,1,67,6,128,6.67,120,3,android,108,16,0,2460,1080
+Xiaomi Redmi Note 12T 5G,15999,7.8,1,dimensity,8,2,5000,1,33,6,64,6.52,90,3,android,64,16,1,2400,1080
+Xiaomi Redmi Note 12 Turbo,19999,8.1,1,snapdragon,8,2.4,5000,1,67,8,128,6.67,120,3,android,50,16,0,2400,1080
+Xiaomi Redmi Note 12 Pro Plus (6GB RAM + 128GB),26999,8.4,1,dimensity,8,2.6,4980,1,120,6,128,6.67,120,3,android,200,16,0,2400,1080
+Xiaomi Redmi Note 12 Pro Plus (12GB RAM + 256GB),32999,8.7,1,dimensity,8,2.6,4980,1,120,12,256,6.67,120,3,android,200,16,0,2400,1080
+Xiaomi Redmi Note 12 Pro Plus,29999,8.6,1,dimensity,8,2.6,4980,1,120,8,256,6.67,120,3,android,200,16,0,2400,1080
+Xiaomi Redmi Note 12 Pro Max 5G,32999,8.3,1,snapdragon,8,2.36,5200,1,210,6,128,6.67,120,4,android,108,32,1,2460,1080
+Xiaomi Redmi Note 12 Pro 5G,24762,7.9,1,dimensity,8,2.6,5000,1,67,6,128,6.67,120,3,android,50,16,0,2400,1080
+Xiaomi Redmi Note 12 Pro 4G,14999,7.7,0,snapdragon,8,2.3,5000,1,67,6,128,6.67,120,3,android,50,16,0,2400,1080
+Xiaomi Redmi Note 12 Pro (8GB RAM + 256GB),27994,8.2,1,dimensity,8,2.6,5000,1,67,8,256,6.67,120,3,android,50,16,0,2400,1080
+Xiaomi Redmi Note 12 Pro (8GB RAM + 128GB),26999,8.2,1,dimensity,8,2.6,5000,1,67,8,128,6.67,120,3,android,50,16,0,2400,1080
+Xiaomi Redmi Note 12 Explorer,24999,8.9,1,dimensity,8,2.6,4300,1,120,8,256,6.67,120,3,android,200,16,1,2400,1080
+Xiaomi Redmi Note 12 Discovery Edition,26990,8.6,1,dimensity,8,2.6,4300,1,210,8,256,6.67,120,3,android,200,16,0,2400,1080
+Xiaomi Redmi Note 12 4G,13999,7.5,0,helio,8,2.2,5000,1,33,4,64,6.67,120,3,android,48,13,1,2400,1080
+Xiaomi Redmi Note 12 (6GB RAM + 128GB),19988,7.9,1,snapdragon,8,2,5000,1,33,6,128,6.67,120,3,android,48,13,1,2400,1080
+Xiaomi Redmi Note 12,17859,7.6,1,snapdragon,8,2,5000,1,33,4,128,6.67,120,3,android,48,13,1,2400,1080
+Xiaomi Redmi Note 11T Pro 5G,19990,8.2,1,dimensity,8,2.85,5080,1,67,6,128,6.6,144,3,android,64,16,1,2460,1080
+Xiaomi Redmi Note 11T 5G (8GB RAM + 128GB),18499,8.3,1,dimensity,8,2.4,5000,1,33,8,128,6.6,90,2,android,50,16,1,2400,1080
+Xiaomi Redmi Note 11T 5G (6GB RAM + 128GB),16999,8.1,1,dimensity,8,2.4,5000,1,33,6,128,6.6,90,2,android,50,16,1,2400,1080
+Xiaomi Redmi Note 11T 5G,16999,7.9,1,dimensity,8,2.4,5000,1,33,6,64,6.6,90,2,android,50,16,1,2400,1080
+Xiaomi Redmi Note 11SE,11999,8,0,helio,8,2.05,5000,1,33,6,64,6.43,60,4,android,64,13,1,2400,1080
+Xiaomi Redmi Note 11S (8GB RAM + 128GB),15824,8.4,0,helio,8,2.05,5000,1,33,8,128,6.43,90,4,android,108,16,1,2400,1080
+Xiaomi Redmi Note 11S (6GB RAM + 128GB),15499,8.1,0,helio,8,2.05,5000,1,33,6,128,6.43,90,4,android,108,16,1,2400,1080
+Xiaomi Redmi Note 11S,14590,8,0,helio,8,2.05,5000,1,33,6,64,6.43,90,4,android,108,16,1,2400,1080
+Xiaomi Redmi Note 11R,12990,7.3,1,dimensity,8,2.2,5000,1,18,4,128,6.58,90,2,android,13,5,1,2400,1080
+Xiaomi Redmi Note 11E 5G,13990,6.9,1,dimensity,8,2.2,5000,1,18,4,128,6.58,90,2,android,50,5,0,2408,1080
+Xiaomi Redmi Note 11 Pro Plus 5G (8GB RAM + 256GB),22999,8.7,1,snapdragon,8,2.2,5000,1,67,8,256,6.67,120,3,android,108,16,1,2400,1080
+Xiaomi Redmi Note 11 Pro Plus 5G (8GB RAM + 128GB),22700,8.6,1,snapdragon,8,2.2,5000,1,67,8,128,6.67,120,3,android,108,16,1,2400,1080
+Xiaomi Redmi Note 11 Pro Plus 5G,19999,8.3,1,snapdragon,8,2.2,5000,1,67,6,128,6.67,120,3,android,108,16,1,2400,1080
+Xiaomi Redmi Note 11 Pro Max 5G,19999,8.3,1,snapdragon,8,2.4,5200,1,33,6,128,6.67,120,4,android,108,32,1,2400,1080
+Xiaomi Redmi Note 11 Pro 5G,17990,8.1,1,snapdragon,8,2.2,5000,1,67,6,64,6.67,120,3,android,108,16,1,2400,1080
+Xiaomi Redmi Note 11 Pro 4G,17999,8.1,0,helio,8,2.05,5000,1,67,6,128,6.67,120,4,android,108,16,1,2400,1080
+Xiaomi Redmi Note 11 5G,14990,7.7,1,dimensity,8,2.4,5000,1,33,4,128,6.6,90,2,android,50,16,1,2400,1080
+Xiaomi Redmi Note 11 (6GB RAM + 64GB),12188,7.9,0,snapdragon,8,2.4,5000,1,33,6,64,6.43,90,4,android,50,13,1,2400,1080
