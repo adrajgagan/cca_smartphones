@@ -1,32 +1,41 @@
-from flask import Flask, request, render_template, redirect, url_for
-import sqlite3
+from flask import Flask, render_template, request, redirect, url_for
 import pandas as pd
+import sqlite3
+from dash import Dash, dcc, html
+from dash.dependencies import Input, Output
+import plotly.express as px
+import plotly.graph_objects as go
 
+# Initialize Flask app
 app = Flask(__name__)
 
-def get_db_connection():
-    conn = sqlite3.connect('smartphones.db')
-    conn.row_factory = sqlite3.Row
-    return conn
+# Initialize Dash app
+dash_app = Dash(__name__, server=app, url_base_pathname='/dashboard/')
 
-def load_data():
-    conn = get_db_connection()
-    df = pd.read_sql_query('SELECT * FROM smartphones', conn)
-    conn.close()
-    return df
+# Load CSV data into Pandas DataFrame
+df = pd.read_csv('combined.csv')
 
-smartphones_df = load_data()
-
+# Extract brand from model names
 top_brands = ['Apple', 'Samsung', 'Oppo', 'Vivo', 'Xiaomi', 'OnePlus', 'Realme', 'Google', 'Motorola', 'POCO']
 
 def extract_brand(model):
+    model_lower = model.lower()
     for brand in top_brands:
-        if model.startswith(brand):
+        if brand.lower() in model_lower:
             return brand
     return 'Unknown'
 
-smartphones_df['brand'] = smartphones_df['model'].apply(extract_brand)
+df['brand'] = df['model'].apply(extract_brand)
 
+# Save data to SQLite database
+def save_to_db(df):
+    conn = sqlite3.connect('smartphones.db')
+    df.to_sql('smartphones', conn, if_exists='replace', index=False)
+    conn.close()
+
+save_to_db(df)
+
+# Define Flask routes
 @app.route('/')
 def home():
     return render_template('home.html')
@@ -44,7 +53,7 @@ def price_ranges():
     model = request.form.get('model', '')
 
     if model:
-        conn = get_db_connection()
+        conn = sqlite3.connect('smartphones.db')
         query = f'SELECT DISTINCT "price" FROM smartphones WHERE "model" LIKE "{model}%"'
         unique_prices = [row[0] for row in conn.execute(query).fetchall()]
         conn.close()
@@ -65,7 +74,7 @@ def price_ranges():
         # Get unique values for other attributes
         unique_values = {}
         for col in ['5G_or_not', 'ram_capacity', 'internal_memory', 'extended_memory_available']:
-            unique_values[col] = ['No preference'] + sorted(set(smartphones_df[col].dropna().astype(str)))
+            unique_values[col] = ['No preference'] + sorted(set(df[col].dropna().astype(str)))
 
         return render_template('price_ranges.html', price_ranges=price_ranges, model=model, unique_values=unique_values)
     
@@ -80,7 +89,7 @@ def recommend():
     internal_memory = request.form.get('internal_memory', 'No preference')
     extended_memory_available = request.form.get('extended_memory_available', 'No preference')
 
-    conn = get_db_connection()
+    conn = sqlite3.connect('smartphones.db')
     
     # Construct the query with filters
     filters = []
@@ -115,6 +124,80 @@ def recommend():
         return render_template('results.html', tables=[smartphones_df_filtered.to_html(classes='data')], titles=smartphones_df_filtered.columns.values)
     else:
         return render_template('results.html', message="No smartphones match your criteria.")
+
+# Dash layout and callbacks
+dash_app.layout = html.Div([
+    html.H1('Smartphone Trend Analysis Dashboard'),
+    dcc.Dropdown(
+        id='brand-dropdown',
+        options=[{'label': brand, 'value': brand} for brand in df['brand'].unique()],
+        value='Apple'
+    ),
+    dcc.Dropdown(
+        id='comparison-brand-dropdown',
+        options=[{'label': brand, 'value': brand} for brand in df['brand'].unique()],
+        value='Samsung'
+    ),
+    html.Div([
+        dcc.Graph(id='price-distribution'),
+        dcc.Graph(id='comparison-price-distribution')
+    ], style={'display': 'flex', 'justify-content': 'space-around'}),
+    dcc.Graph(id='price-trend'),
+    html.Div(
+        html.Button('Home', id='return-home', n_clicks=0, style={'margin-top': '20px'}),
+        style={'display': 'flex', 'justify-content': 'center'}
+    ),
+    dcc.Location(id='home-url', refresh=True)
+])
+
+@dash_app.callback(
+    [Output('price-distribution', 'figure'),
+     Output('comparison-price-distribution', 'figure'),
+     Output('price-trend', 'figure'),
+     Output('home-url', 'href')],
+    [Input('brand-dropdown', 'value'),
+     Input('comparison-brand-dropdown', 'value'),
+     Input('return-home', 'n_clicks')]
+)
+def update_graphs(selected_brand, comparison_brand, n_clicks):
+    # Check if the button is clicked
+    if n_clicks > 0:
+        return None, None, None, '/'
+
+    filtered_df = df[df['brand'] == selected_brand]
+    comparison_df = df[df['brand'] == comparison_brand]
+
+    # First Pie Chart
+    price_ranges = {
+        'Low': sum(filtered_df['price'] < 20000),
+        'Mid': sum((filtered_df['price'] >= 20000) & (filtered_df['price'] < 40000)),
+        'High': sum(filtered_df['price'] >= 40000)
+    }
+    pie_fig = px.pie(
+        names=list(price_ranges.keys()),
+        values=list(price_ranges.values()),
+        title=f'Price Range Distribution for {selected_brand}'
+    )
+
+    # Second Pie Chart
+    comparison_price_ranges = {
+        'Low': sum(comparison_df['price'] < 20000),
+        'Mid': sum((comparison_df['price'] >= 20000) & (comparison_df['price'] < 40000)),
+        'High': sum(comparison_df['price'] >= 40000)
+    }
+    comparison_pie_fig = px.pie(
+        names=list(comparison_price_ranges.keys()),
+        values=list(comparison_price_ranges.values()),
+        title=f'Price Range Distribution for {comparison_brand}'
+    )
+
+    # Line Graph
+    line_fig = go.Figure()
+    line_fig.add_trace(go.Scatter(x=filtered_df['model'], y=filtered_df['price'], mode='lines+markers', name=selected_brand))
+    line_fig.add_trace(go.Scatter(x=comparison_df['model'], y=comparison_df['price'], mode='lines+markers', name=comparison_brand))
+    line_fig.update_layout(title=f'Price Trend Comparison: {selected_brand} vs {comparison_brand}', xaxis_title='Model', yaxis_title='Price')
+
+    return pie_fig, comparison_pie_fig, line_fig, None
 
 if __name__ == '__main__':
     app.run(debug=True, port=5000)
